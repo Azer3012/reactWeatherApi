@@ -41,7 +41,7 @@ export default class App extends Component {
         });
       })
 
-      .catch((err) => console.log("error"));
+      .catch((err) => console.log(err));
   };
 
   render() {
